@@ -1,0 +1,38 @@
+.blog {
+    min-height: 100vh;
+    /* background: #FDE0DC; */
+    background-color: #FDE0DC;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.food, .vatnarian, .aquarium, .decore {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #FDE0DC;
+}
+
+.box1blog{
+    display: flex;
+    box-shadow: 0px 0px 12px #ccc;
+    height: 60vh;
+    width: 23vw;
+    
+    
+    flex-direction: column;
+
+}
+
+.imagesourceblog {
+    height: 50vh;
+    width: 95%; /* Ensures the aspect ratio is maintained */
+    margin-top: 12px;
+}
+
+.blogheading{
+    text-align: center;
+    background-color: #FBCAC6;
+}

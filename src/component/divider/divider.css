@@ -1,0 +1,62 @@
+.dividers{
+    background-color: #FDE0DC;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    overflow: hidden;
+}
+.optionsofpets {
+    display: flex;
+    flex-direction: row;
+    background-color: #FDE0DC;
+    justify-content: space-between;
+    /* margin-top: 10vh; */
+    margin: 15vh 25px 0px 30px;
+    
+}
+.optionsheading{
+    margin: 0px;
+}
+
+.box2 {
+    display: flex;
+    box-shadow: 0px 0px 12px #ccc;
+    height: 60vh;
+    width: 20vw;
+    
+    
+    flex-direction: column;
+
+
+
+
+    top: -50px;
+    left: -35px;
+    z-index: 1;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    
+
+}
+
+.box2:hover { 
+    transform: scale(1.2); 
+    
+    }
+
+.imagesource {
+    height: 50vh;
+    width: 95%; /* Ensures the aspect ratio is maintained */
+    margin-top: 12px;
+}
+
+
+
+.headingvariety{
+    margin: 0px;
+}
+.optionspecies{
+    margin: 0px;
+}

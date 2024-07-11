@@ -1,0 +1,70 @@
+*{
+    padding: 0%;
+}
+
+
+  #pinkc{
+    background-color: #FBCAC6;
+    /* background-color: #FDE0DC; */
+    min-height: 100vh;
+  background-size: cover;
+  align-items: center;
+  /* background-position: center; */
+  align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .volumeoftank{
+    box-shadow: 0px 0px 12px #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 20rem;
+    margin-left: 40%;
+    margin-top: 30px;
+    background-color: #FDE0DC;
+  }
+  .reviewoftank{
+    box-shadow: 0px 0px 12px #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 90%;
+    margin-left: 4.1%;
+    margin-bottom: 20px;
+    background-color: #FDE0DC;
+  }
+  .rectangularbtn{
+    width: 50%;
+    height:30px
+    
+  }
+  .rectangularbtn:hover{
+    color: rgb(11, 14, 241);
+    background: #efefef;
+  }
+ .resultbtn{
+    padding-left: 3px;
+ }
+
+.submitionbtn{
+  justify-content: space-around;
+}
+.submitionbtns{
+  justify-content: space-around;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.ulimage{
+  height: 32px;
+}
+.list-goals{
+  text-align: left;
+  padding-left: 90px;
+}
+.defaultshpere{
+  background-color: #FDE0DC;
+}
